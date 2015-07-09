@@ -1,0 +1,10 @@
+#Read-in format: '%s %s %lf'. Example: 'variable  = 10.3'. Keep lines <120 char
+MBH        = 4.6e6    #Mass of Black Hole, in solar masses
+M_unit     = 4.e18    #In grams
+DSOURCE    = 8.0e3    #Distance to source, in parsecs
+TP_OVER_TE = 3.       #Ratio of proton to electron temperature
+THETAE_MAX = 1000.    #Maximum allowed electron temperature
+pin        = 3.       #Power law index of Non-thermal population
+FRAC       = 0.       #Fraction of energy from Non-thermal electrons
+Gmin       = 1.       #Minimum Lorentz factor
+Gmax       = 1000.    #Maximum Lorentz factor
