@@ -1,7 +1,7 @@
 # 
 #
 CC = gcc49
-CCFLAGS  = -Wall -Ofast -ftree-vectorizer-verbose=1 -fopenmp
+CFLAGS  = -Wall -Ofast -ftree-vectorizer-verbose=1 -fopenmp
 LDFLAGS = -lm -lgsl -lgslcblas 
 #
 SRCMIB = \
