@@ -9,8 +9,8 @@
 #include <gsl/gsl_linalg.h>
 #include "constants.h"
 
-#define NX	256
-#define NY	256
+#define NX	128
+#define NY	128
 
 #define NDIM	4
 #define NPRIM	8	
