@@ -1,6 +1,6 @@
 # 
 #
-CC = gcc5
+CC = gcc
 CFLAGS  = -Wall -Ofast 
 LDFLAGS = -lm -lgsl -lgslcblas 
 #
