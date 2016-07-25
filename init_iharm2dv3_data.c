@@ -66,6 +66,9 @@ void init_harm_data(char *fname)
 	fscanf(fp, "%d ",  &image_cnt) ;
 	fscanf(fp, "%d ",  &rdump_cnt) ;
 	fscanf(fp, "%lf ", &dt) ;
+	
+	double dum;
+        for(i=0;i<21;i++) fscanf(fp, "%lf",&dum);
 
 	/* not set automatically */
 	a = 0.9375;
