@@ -223,8 +223,8 @@ void init(int i, int j,
 	/* construct *outgoing* wavevectors */
 	Kcon_tetrad[0] = 0. ;
 	Kcon_tetrad[1] = -1. ;
-	Kcon_tetrad[2] = -(j/((double)NY) - 0.5)*fovy ;
-	Kcon_tetrad[3] = -(i/((double)NX) - 0.5)*fovx ;
+	Kcon_tetrad[2] = -((j+0.5)/((double)NY) - 0.5)*fovy ;
+	Kcon_tetrad[3] = -((i+0.5)/((double)NX) - 0.5)*fovx ;
 
 	/* normalize */
 	null_normalize(Kcon_tetrad, 1.) ;
